@@ -1,0 +1,25 @@
+# Zero-shot multiple-choice QA prompt
+#
+# Used for all per-model predictions in predictions/medqa/*.json and
+# predictions/medmcqa/*.json. Identical template was used for Llama-3-8B,
+# Qwen-2.5-7B, Gemma-3n-E4B, DeepSeek-V3, and GPT-4o. Flan-T5-base used the
+# same string passed to the HuggingFace text2text pipeline (no chat template).
+#
+# Inference parameters: max_tokens=3, temperature=0.0. Output is parsed by
+# scanning the first occurrence of one of the letters {A, B, C, D} in the
+# uppercased response string.
+#
+# Question and option placeholders are filled with the literal question stem
+# and option texts from the respective dataset. No extra system prompt or
+# few-shot examples are used.
+
+Answer this USMLE medical question. Reply with only the single letter A, B, C, or D. Nothing else.
+
+Question: {question}
+
+A: {option_a}
+B: {option_b}
+C: {option_c}
+D: {option_d}
+
+Single letter answer:

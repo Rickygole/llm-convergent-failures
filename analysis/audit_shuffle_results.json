@@ -1,0 +1,1930 @@
+{
+  "llama": [
+    {
+      "idx": 0,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 6,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 23,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 59,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 93,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 100,
+      "shuffled_pred": "A",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 150,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 198,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 202,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 204,
+      "shuffled_pred": "A",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 211,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 212,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 239,
+      "shuffled_pred": "D",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 258,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 273,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 288,
+      "shuffled_pred": "A",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 378,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 452,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 454,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 483,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 501,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 531,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 576,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 633,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 723,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 758,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 763,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 772,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 778,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 803,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 822,
+      "shuffled_pred": "B",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 862,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 874,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 891,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 905,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 911,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 913,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 950,
+      "shuffled_pred": "D",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 980,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 988,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1051,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1104,
+      "shuffled_pred": "D",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1152,
+      "shuffled_pred": "B",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1211,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 1218,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1222,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1224,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1227,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    }
+  ],
+  "qwen": [
+    {
+      "idx": 0,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 6,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 23,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 59,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 93,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 100,
+      "shuffled_pred": "A",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 150,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 198,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 202,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 204,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 211,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 212,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 239,
+      "shuffled_pred": "D",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 258,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 273,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 288,
+      "shuffled_pred": "B",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 378,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 452,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 454,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 483,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 501,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 531,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 576,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 633,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 723,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 758,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 763,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 772,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 778,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 803,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 822,
+      "shuffled_pred": "B",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 862,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 874,
+      "shuffled_pred": "D",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 891,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 905,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 911,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 913,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 950,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 980,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 988,
+      "shuffled_pred": "A",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1051,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1104,
+      "shuffled_pred": "D",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1152,
+      "shuffled_pred": "B",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1211,
+      "shuffled_pred": "D",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1218,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1222,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1224,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 1227,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    }
+  ],
+  "gemma": [
+    {
+      "idx": 0,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 6,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 23,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 59,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 93,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 100,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 150,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 198,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 202,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 204,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 211,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 212,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 239,
+      "shuffled_pred": "D",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 258,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 273,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 288,
+      "shuffled_pred": "A",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 378,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 452,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 454,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 483,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 501,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 531,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 576,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 633,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 723,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 758,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 763,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 772,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 778,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 803,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 822,
+      "shuffled_pred": "A",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 862,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 874,
+      "shuffled_pred": "D",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 891,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 905,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 911,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 913,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 950,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 980,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 988,
+      "shuffled_pred": "A",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1051,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1104,
+      "shuffled_pred": "D",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1152,
+      "shuffled_pred": "B",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1211,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1218,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1222,
+      "shuffled_pred": "C",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1224,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1227,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    }
+  ],
+  "gpt4o": [
+    {
+      "idx": 0,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 6,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 23,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 59,
+      "shuffled_pred": "B",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 93,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 100,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 150,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 198,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 202,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 204,
+      "shuffled_pred": "D",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 211,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 212,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 239,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 258,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 273,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 288,
+      "shuffled_pred": "D",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 378,
+      "shuffled_pred": "D",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 452,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 454,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 483,
+      "shuffled_pred": "D",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 501,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 531,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 576,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 633,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 723,
+      "shuffled_pred": "D",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 758,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 763,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 772,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 778,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 803,
+      "shuffled_pred": "C",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 822,
+      "shuffled_pred": "A",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 862,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 874,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 891,
+      "shuffled_pred": "C",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 905,
+      "shuffled_pred": "B",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 911,
+      "shuffled_pred": "D",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 913,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 950,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 980,
+      "shuffled_pred": "B",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 988,
+      "shuffled_pred": "A",
+      "shuffled_gold": "B",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1051,
+      "shuffled_pred": "D",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1104,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "C",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1152,
+      "shuffled_pred": "D",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "B",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1211,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "D",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1218,
+      "shuffled_pred": "A",
+      "shuffled_gold": "A",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "A",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 1
+    },
+    {
+      "idx": 1222,
+      "shuffled_pred": "D",
+      "shuffled_gold": "D",
+      "shuffled_orig_wrong_letter": "C",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1224,
+      "shuffled_pred": "A",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "B",
+      "shuffled_correct": 0,
+      "picked_orig_wrong_text": 1,
+      "picked_orig_wrong_letter": 0
+    },
+    {
+      "idx": 1227,
+      "shuffled_pred": "C",
+      "shuffled_gold": "C",
+      "shuffled_orig_wrong_letter": "A",
+      "original_wrong_letter": "D",
+      "shuffled_correct": 1,
+      "picked_orig_wrong_text": 0,
+      "picked_orig_wrong_letter": 0
+    }
+  ]
+}

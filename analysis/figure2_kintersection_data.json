@@ -1,0 +1,104 @@
+{
+  "medqa": {
+    "strong_models": [
+      "llama",
+      "qwen",
+      "gemma",
+      "deepseek"
+    ],
+    "n_questions": 1273,
+    "rows": [
+      {
+        "k": 0,
+        "observed": 115,
+        "null_mean": 43.6893,
+        "null_lo": 32.0,
+        "null_hi": 55.0,
+        "z": 12.242407476032096
+      },
+      {
+        "k": 1,
+        "observed": 94,
+        "null_mean": 119.9829,
+        "null_lo": 104.0,
+        "null_hi": 136.0,
+        "z": -3.0775014751660597
+      },
+      {
+        "k": 2,
+        "observed": 54,
+        "null_mean": 118.2244,
+        "null_lo": 102.0,
+        "null_hi": 135.0,
+        "z": -7.51243019114607
+      },
+      {
+        "k": 3,
+        "observed": 43,
+        "null_mean": 48.4925,
+        "null_lo": 37.0,
+        "null_hi": 61.0,
+        "z": -0.9048152276301732
+      },
+      {
+        "k": 4,
+        "observed": 31,
+        "null_mean": 6.7196,
+        "null_lo": 2.0,
+        "null_hi": 12.0,
+        "z": 9.6285801442423
+      }
+    ]
+  },
+  "medmcqa": {
+    "strong_models": [
+      "llama",
+      "qwen",
+      "gemma",
+      "gpt4o"
+    ],
+    "n_questions": 2816,
+    "rows": [
+      {
+        "k": 0,
+        "observed": 230,
+        "null_mean": 87.9316,
+        "null_lo": 72.0,
+        "null_hi": 105.0,
+        "z": 16.99609907532948
+      },
+      {
+        "k": 1,
+        "observed": 168,
+        "null_mean": 258.213,
+        "null_lo": 234.0,
+        "null_hi": 283.0,
+        "z": -7.186737195869079
+      },
+      {
+        "k": 2,
+        "observed": 153,
+        "null_mean": 271.5538,
+        "null_lo": 247.0,
+        "null_hi": 297.0,
+        "z": -9.10261262302197
+      },
+      {
+        "k": 3,
+        "observed": 123,
+        "null_mean": 118.6954,
+        "null_lo": 100.0,
+        "null_hi": 137.0,
+        "z": 0.4564471931467848
+      },
+      {
+        "k": 4,
+        "observed": 80,
+        "null_mean": 17.3962,
+        "null_lo": 10.0,
+        "null_hi": 26.0,
+        "z": 15.414594256537654
+      }
+    ]
+  }
+}

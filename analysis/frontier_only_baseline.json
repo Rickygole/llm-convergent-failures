@@ -1,0 +1,20 @@
+{
+  "experiment": "frontier_only_vs_ensemble_baseline",
+  "note": "Reviewer-requested cost/accuracy baseline. GPT-4o-alone vs mid-tier ensemble vs detector-routed, on the common subset with valid predictions from all models.",
+  "medqa": {
+    "n_common": 1271,
+    "frontier_only_acc": 0.8851,
+    "mid_tier_majority_acc": 0.5854,
+    "detector_routed_human_acc": 0.6625,
+    "detector_routed_autoescalate_acc": 0.6499,
+    "improvement_over_mid_tier_pp": 7.7
+  },
+  "medmcqa": {
+    "n_common": 2815,
+    "frontier_only_acc": 0.7719,
+    "mid_tier_majority_acc": 0.5741,
+    "detector_routed_human_acc": 0.6295,
+    "detector_routed_autoescalate_acc": 0.6078,
+    "improvement_over_mid_tier_pp": 5.5
+  }
+}

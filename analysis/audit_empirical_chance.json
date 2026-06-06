@@ -1,0 +1,15 @@
+{
+  "experiment": "empirical_chance_baseline",
+  "medqa": {
+    "observed_rate": 0.3356643356643357,
+    "naive_chance": 0.03703703703703703,
+    "empirical_chance": 0.039009477134567726,
+    "honest_ratio": 8.604686868947834
+  },
+  "medmcqa": {
+    "observed_rate": 0.23588039867109634,
+    "naive_chance": 0.03703703703703703,
+    "empirical_chance": 0.04169099096975823,
+    "honest_ratio": 5.657826623555171
+  }
+}

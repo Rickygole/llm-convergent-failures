@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-05-29T00:33:55.946327",
+  "experiment": "distractor_letter_shuffle_unanimous_wrong_48",
+  "n_questions": 48,
+  "models_tested": [
+    "llama",
+    "qwen",
+    "gemma",
+    "gpt4o"
+  ],
+  "deepseek_unavailable": true,
+  "per_model_under_shuffle": {
+    "llama": {
+      "correct_after_shuffle": 0.104,
+      "picked_orig_wrong_text": 0.75,
+      "picked_orig_wrong_letter": 0.229
+    },
+    "qwen": {
+      "correct_after_shuffle": 0.125,
+      "picked_orig_wrong_text": 0.792,
+      "picked_orig_wrong_letter": 0.208
+    },
+    "gemma": {
+      "correct_after_shuffle": 0.146,
+      "picked_orig_wrong_text": 0.771,
+      "picked_orig_wrong_letter": 0.188
+    },
+    "gpt4o": {
+      "correct_after_shuffle": 0.646,
+      "picked_orig_wrong_text": 0.292,
+      "picked_orig_wrong_letter": 0.188
+    }
+  },
+  "mid_tier_3_joint": {
+    "all_3_picked_orig_wrong_text": 0.6041666666666666,
+    "all_3_picked_orig_wrong_letter": 0.10416666666666667,
+    "all_3_unanimous_any_letter": 0.625,
+    "expected_joint_text_under_indep": 0.456,
+    "expected_joint_letter_under_indep": 0.009,
+    "content_ratio_vs_chance": 1.3249269005847952,
+    "letter_ratio_vs_chance": 11.574074074074076
+  },
+  "paper_claims": {
+    "mechanism": "Mid-tier LLM convergence is primarily content-driven, not positional",
+    "evidence": "60.4% joint content lock vs 10.4% joint letter lock under randomization",
+    "gpt4o_caveat": "Frontier model GPT-4o behaves differently \u2014 recovers most accuracy under shuffle, suggesting greater positional sensitivity in original errors",
+    "scope_refinement": "Content-driven shared failure mode is a property of mid-tier capable LLMs specifically; frontier-tier models may differ"
+  },
+  "closes_hole": "Hole A \u2014 mechanism (content vs position)"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "test_retest_T0_vs_T07_majority_vote",
+  "llama_acc_t0": 0.5200314218381775,
+  "llama_acc_t07": 0.5263157894736842,
+  "qwen_acc_t0": 0.5954438334642577,
+  "qwen_acc_t07": 0.5813040062843676,
+  "t0_unanim_count": 48,
+  "t07_unanim_count": 48,
+  "unanim_overlap": 41,
+  "unanim_jaccard": 0.7454545454545455,
+  "subset_t0_count": 143,
+  "subset_t07_count": 144,
+  "subset_overlap": 133,
+  "subset_jaccard": 0.8636363636363636
+}

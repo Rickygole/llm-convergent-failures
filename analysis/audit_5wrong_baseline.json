@@ -1,0 +1,40 @@
+{
+  "experiment": "all_5_wrong_baseline",
+  "medqa": {
+    "full": {
+      "n": 143,
+      "unanim": 48,
+      "rate": 0.3356643356643357
+    },
+    "all_5_wrong": {
+      "n": 112,
+      "unanim": 34,
+      "rate": 0.30357142857142855
+    },
+    "trap": {
+      "n": 31,
+      "unanim": 14,
+      "rate": 0.45161290322580644
+    },
+    "fisher_exact_two_sided_p": 0.1365248587815236
+  },
+  "medmcqa": {
+    "full": {
+      "n": 301,
+      "unanim": 71,
+      "rate": 0.23588039867109634
+    },
+    "all_5_wrong": {
+      "n": 221,
+      "unanim": 48,
+      "rate": 0.2171945701357466
+    },
+    "trap": {
+      "n": 80,
+      "unanim": 23,
+      "rate": 0.2875
+    },
+    "fisher_exact_two_sided_p": 0.22049579595503482
+  },
+  "note": "Fisher exact two-sided p-values added. Neither dataset reaches p<0.05, supporting the honest-null framing in Section VI-G."
+}

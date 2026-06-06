@@ -1,0 +1,12 @@
+{
+  "experiment": "non_dental_stratified",
+  "n_total": 2816,
+  "n_non_dental": 1971,
+  "unanimous_rate_non_dental": 0.23636363636363636,
+  "unanimous_rate_full": 0.236,
+  "flan_acc_non_dental": 0.2643328259766616,
+  "llama_acc_non_dental": 0.5854895991882293,
+  "qwen_acc_non_dental": 0.5981735159817352,
+  "gemma_acc_non_dental": 0.5169964485032978,
+  "gpt4o_acc_non_dental": 0.8112633181126332
+}

@@ -1,0 +1,20 @@
+{
+  "experiment": "programmatic_pc_score_trap_vs_nontrap",
+  "description": "pc_score = sim_early - sim_late. Tests whether MedQA trap questions have lower pc_score (later convergence to the wrong answer) than non-trap. Source per-question data in programmatic_pc_scores.json.",
+  "medqa": {
+    "trap": {
+      "n": 149,
+      "mean": -0.09215622963485365,
+      "std": 0.1307028674411579
+    },
+    "nontrap": {
+      "n": 150,
+      "mean": -0.06044529950246215,
+      "std": 0.12060100160059758
+    },
+    "mean_diff": -0.0317109301323915,
+    "welch_t": -2.1798875392435884,
+    "welch_p_two_sided": 0.03005688457212966
+  },
+  "note": "Direction matches Section V-G LLM-labeled bias triangulation: traps converge later than non-traps. Effect is modest but statistically significant at p<0.05. We do not claim pc_score as a stand-alone detector."
+}

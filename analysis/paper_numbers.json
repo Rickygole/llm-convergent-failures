@@ -1,0 +1,568 @@
+{
+  "headline_5_llm": {
+    "subset_n": 57,
+    "unanimous_n": 14,
+    "unanimous_rate": 0.24561403508771928,
+    "naive_chance": 0.012345679012345677,
+    "naive_ratio": 19.894736842105267
+  },
+  "empirical_chance_4_model": {
+    "experiment": "empirical_chance_baseline",
+    "medqa": {
+      "observed_rate": 0.3356643356643357,
+      "naive_chance": 0.03703703703703703,
+      "empirical_chance": 0.039009477134567726,
+      "honest_ratio": 8.604686868947834
+    },
+    "medmcqa": {
+      "observed_rate": 0.23588039867109634,
+      "naive_chance": 0.03703703703703703,
+      "empirical_chance": 0.04169099096975823,
+      "honest_ratio": 5.657826623555171
+    }
+  },
+  "shuffle_mechanism": {
+    "timestamp": "2026-05-29T00:33:55.946327",
+    "experiment": "distractor_letter_shuffle_unanimous_wrong_48",
+    "n_questions": 48,
+    "models_tested": [
+      "llama",
+      "qwen",
+      "gemma",
+      "gpt4o"
+    ],
+    "deepseek_unavailable": true,
+    "per_model_under_shuffle": {
+      "llama": {
+        "correct_after_shuffle": 0.104,
+        "picked_orig_wrong_text": 0.75,
+        "picked_orig_wrong_letter": 0.229
+      },
+      "qwen": {
+        "correct_after_shuffle": 0.125,
+        "picked_orig_wrong_text": 0.792,
+        "picked_orig_wrong_letter": 0.208
+      },
+      "gemma": {
+        "correct_after_shuffle": 0.146,
+        "picked_orig_wrong_text": 0.771,
+        "picked_orig_wrong_letter": 0.188
+      },
+      "gpt4o": {
+        "correct_after_shuffle": 0.646,
+        "picked_orig_wrong_text": 0.292,
+        "picked_orig_wrong_letter": 0.188
+      }
+    },
+    "mid_tier_3_joint": {
+      "all_3_picked_orig_wrong_text": 0.6041666666666666,
+      "all_3_picked_orig_wrong_letter": 0.10416666666666667,
+      "all_3_unanimous_any_letter": 0.625,
+      "expected_joint_text_under_indep": 0.456,
+      "expected_joint_letter_under_indep": 0.009,
+      "content_ratio_vs_chance": 1.3249269005847952,
+      "letter_ratio_vs_chance": 11.574074074074076
+    },
+    "paper_claims": {
+      "mechanism": "Mid-tier LLM convergence is primarily content-driven, not positional",
+      "evidence": "60.4% joint content lock vs 10.4% joint letter lock under randomization",
+      "gpt4o_caveat": "Frontier model GPT-4o behaves differently \u2014 recovers most accuracy under shuffle, suggesting greater positional sensitivity in original errors",
+      "scope_refinement": "Content-driven shared failure mode is a property of mid-tier capable LLMs specifically; frontier-tier models may differ"
+    },
+    "closes_hole": "Hole A \u2014 mechanism (content vs position)"
+  },
+  "test_retest": {
+    "experiment": "test_retest_T0_vs_T07_majority_vote",
+    "llama_acc_t0": 0.5200314218381775,
+    "llama_acc_t07": 0.5263157894736842,
+    "qwen_acc_t0": 0.5954438334642577,
+    "qwen_acc_t07": 0.5813040062843676,
+    "t0_unanim_count": 48,
+    "t07_unanim_count": 48,
+    "unanim_overlap": 41,
+    "unanim_jaccard": 0.7454545454545455,
+    "subset_t0_count": 143,
+    "subset_t07_count": 144,
+    "subset_overlap": 133,
+    "subset_jaccard": 0.8636363636363636
+  },
+  "non_dental_stratification": {
+    "experiment": "non_dental_stratified",
+    "n_total": 2816,
+    "n_non_dental": 1971,
+    "unanimous_rate_non_dental": 0.23636363636363636,
+    "unanimous_rate_full": 0.236,
+    "flan_acc_non_dental": 0.2643328259766616,
+    "llama_acc_non_dental": 0.5854895991882293,
+    "qwen_acc_non_dental": 0.5981735159817352,
+    "gemma_acc_non_dental": 0.5169964485032978,
+    "gpt4o_acc_non_dental": 0.8112633181126332
+  },
+  "question_level_test": {
+    "experiment": "all_5_wrong_baseline",
+    "medqa": {
+      "full": {
+        "n": 143,
+        "unanim": 48,
+        "rate": 0.3356643356643357
+      },
+      "all_5_wrong": {
+        "n": 112,
+        "unanim": 34,
+        "rate": 0.30357142857142855
+      },
+      "trap": {
+        "n": 31,
+        "unanim": 14,
+        "rate": 0.45161290322580644
+      }
+    },
+    "medmcqa": {
+      "full": {
+        "n": 301,
+        "unanim": 71,
+        "rate": 0.23588039867109634
+      },
+      "all_5_wrong": {
+        "n": 221,
+        "unanim": 48,
+        "rate": 0.2171945701357466
+      },
+      "trap": {
+        "n": 80,
+        "unanim": 23,
+        "rate": 0.2875
+      }
+    }
+  },
+  "pairwise_lifts": {
+    "medqa": [
+      {
+        "pair": "flan_llama",
+        "kind": "flan-strong",
+        "observed": 1.0239274273644159,
+        "null_mean": 0.9998642424496762,
+        "null_ci": [
+          0.9638273392365045,
+          1.0350570733140292
+        ],
+        "z": 1.3623451595102407,
+        "p": 0.0976
+      },
+      {
+        "pair": "flan_qwen",
+        "kind": "flan-strong",
+        "observed": 1.074829889635715,
+        "null_mean": 1.000109405858435,
+        "null_ci": [
+          0.9612729234088457,
+          1.0404987137996846
+        ],
+        "z": 3.678730879494496,
+        "p": 0.0
+      },
+      {
+        "pair": "flan_gemma",
+        "kind": "flan-strong",
+        "observed": 1.06115770468411,
+        "null_mean": 0.9999444286099098,
+        "null_ci": [
+          0.9638462994510694,
+          1.0356713842659329
+        ],
+        "z": 3.35953313397331,
+        "p": 0.0006
+      },
+      {
+        "pair": "flan_deepseek",
+        "kind": "flan-strong",
+        "observed": 1.0391875827615265,
+        "null_mean": 0.9998655866287468,
+        "null_ci": [
+          0.9386210424942819,
+          1.0631319971108704
+        ],
+        "z": 1.252452840244707,
+        "p": 0.1178
+      },
+      {
+        "pair": "llama_qwen",
+        "kind": "strong-strong",
+        "observed": 1.4119047240716318,
+        "null_mean": 0.9998328460426168,
+        "null_ci": [
+          0.9304816233136829,
+          1.0720766529483736
+        ],
+        "z": 11.537129965309452,
+        "p": 0.0
+      },
+      {
+        "pair": "llama_gemma",
+        "kind": "strong-strong",
+        "observed": 1.387796697122878,
+        "null_mean": 0.9998961623501005,
+        "null_ci": [
+          0.9405783241369888,
+          1.0648056499664025
+        ],
+        "z": 12.265949221602968,
+        "p": 0.0
+      },
+      {
+        "pair": "llama_deepseek",
+        "kind": "strong-strong",
+        "observed": 1.5112491643807195,
+        "null_mean": 0.9997397409003941,
+        "null_ci": [
+          0.8950116410410087,
+          1.1077603098130517
+        ],
+        "z": 9.364756773004341,
+        "p": 0.0
+      },
+      {
+        "pair": "qwen_gemma",
+        "kind": "strong-strong",
+        "observed": 1.6085939696663965,
+        "null_mean": 1.0000047594316999,
+        "null_ci": [
+          0.9264153752005424,
+          1.0695886604588083
+        ],
+        "z": 16.521573660576948,
+        "p": 0.0
+      },
+      {
+        "pair": "qwen_deepseek",
+        "kind": "strong-strong",
+        "observed": 1.7407356761930808,
+        "null_mean": 1.0001588308491727,
+        "null_ci": [
+          0.8790715164775058,
+          1.122774511144537
+        ],
+        "z": 11.543860629416194,
+        "p": 0.0
+      },
+      {
+        "pair": "gemma_deepseek",
+        "kind": "strong-strong",
+        "observed": 1.672307267797586,
+        "null_mean": 1.0009018625380903,
+        "null_ci": [
+          0.893233528085035,
+          1.1074263082755447
+        ],
+        "z": 11.993744333940924,
+        "p": 0.0
+      }
+    ],
+    "medmcqa": [
+      {
+        "pair": "flan_llama",
+        "kind": "flan-strong",
+        "observed": 1.0271846412502494,
+        "null_mean": 1.0000160345929812,
+        "null_ci": [
+          0.9759321851379708,
+          1.023981362743232
+        ],
+        "z": 2.2001338572940656,
+        "p": 0.0141
+      },
+      {
+        "pair": "flan_qwen",
+        "kind": "flan-strong",
+        "observed": 1.012341658387238,
+        "null_mean": 1.000305536322109,
+        "null_ci": [
+          0.9746834347710825,
+          1.0256327961341165
+        ],
+        "z": 0.9224261658967133,
+        "p": 0.1865
+      },
+      {
+        "pair": "flan_gemma",
+        "kind": "flan-strong",
+        "observed": 1.0266358277997463,
+        "null_mean": 0.9998842766544803,
+        "null_ci": [
+          0.9779303141087816,
+          1.021860777437887
+        ],
+        "z": 2.370792511573542,
+        "p": 0.0082
+      },
+      {
+        "pair": "flan_gpt4o",
+        "kind": "flan-strong",
+        "observed": 0.9997854667307244,
+        "null_mean": 1.0002228196923413,
+        "null_ci": [
+          0.9593686074373546,
+          1.0423295291447978
+        ],
+        "z": -0.02081006530689731,
+        "p": 0.5283
+      },
+      {
+        "pair": "llama_qwen",
+        "kind": "strong-strong",
+        "observed": 1.3999582753912951,
+        "null_mean": 1.00008412188405,
+        "null_ci": [
+          0.9535430090037647,
+          1.046397384412371
+        ],
+        "z": 17.17058151742605,
+        "p": 0.0
+      },
+      {
+        "pair": "llama_gemma",
+        "kind": "strong-strong",
+        "observed": 1.3271907138990797,
+        "null_mean": 0.9999028664220847,
+        "null_ci": [
+          0.9607505863956216,
+          1.0392734708606484
+        ],
+        "z": 16.07221261055322,
+        "p": 0.0
+      },
+      {
+        "pair": "llama_gpt4o",
+        "kind": "strong-strong",
+        "observed": 1.5432617480069855,
+        "null_mean": 1.0010645115561954,
+        "null_ci": [
+          0.9259570488041913,
+          1.0734242825026366
+        ],
+        "z": 14.299827534454217,
+        "p": 0.0
+      },
+      {
+        "pair": "qwen_gemma",
+        "kind": "strong-strong",
+        "observed": 1.477322353234762,
+        "null_mean": 1.0000242560359347,
+        "null_ci": [
+          0.9598602532909102,
+          1.0429097261214049
+        ],
+        "z": 22.44969606770271,
+        "p": 0.0
+      },
+      {
+        "pair": "qwen_gpt4o",
+        "kind": "strong-strong",
+        "observed": 1.7182314997991375,
+        "null_mean": 0.9993294878888711,
+        "null_ci": [
+          0.9213705143850447,
+          1.0778967793770986
+        ],
+        "z": 18.042212718973346,
+        "p": 0.0
+      },
+      {
+        "pair": "gemma_gpt4o",
+        "kind": "strong-strong",
+        "observed": 1.5213994728013418,
+        "null_mean": 1.0001766019650131,
+        "null_ci": [
+          0.9355379822669542,
+          1.0674335010783609
+        ],
+        "z": 15.310905376564051,
+        "p": 0.0
+      }
+    ]
+  },
+  "medmcqa_5_model": {
+    "timestamp": "2026-05-22T22:11:35.221776",
+    "note": "GPT-4o substituted for DeepSeek-V3 due to Together outage. DeepSeek-V3 MedQA result remains; GPT-4o serves as frontier-tier model for MedMCQA from a 5th organization.",
+    "model_accuracies": {
+      "flan_t5_base": 0.2677556818181818,
+      "llama_3_8b_lite": 0.5458096590909091,
+      "qwen_25_7b_turbo": 0.5621448863636364,
+      "gemma_3n_e4b": 0.4921875,
+      "gpt4o": 0.7720170454545454
+    },
+    "k_intersection_z_scores": {
+      "k=0": 17.0,
+      "k=1": -7.19,
+      "k=2": -9.1,
+      "k=3": 0.46,
+      "k=4": 15.41
+    },
+    "all_strong_wrong": {
+      "n_subset": 301,
+      "n_flan_right": 80,
+      "flan_rate_in_subset": 0.26578073089701,
+      "flan_marginal_rate": 0.2677556818181818,
+      "expertise_reversal_null": true
+    },
+    "unanimous_wrong": {
+      "n_unanimous": 71,
+      "n_classified_in_subset": 301,
+      "observed_rate": 0.23588039867109634,
+      "chance_rate_4models": 0.03703703703703703,
+      "ratio_to_chance": 6.368770764119603,
+      "medqa_comparison": "9.1x (48/143 vs 3.7% chance)"
+    },
+    "pairwise_lifts": {
+      "strong_strong_range": [
+        1.33,
+        1.72
+      ],
+      "flan_strong_range": [
+        1.0,
+        1.03
+      ],
+      "individual": {
+        "llama_qwen": 1.4,
+        "llama_gemma": 1.33,
+        "llama_gpt4o": 1.54,
+        "qwen_gemma": 1.48,
+        "qwen_gpt4o": 1.72,
+        "gemma_gpt4o": 1.52,
+        "flan_llama": 1.03,
+        "flan_qwen": 1.01,
+        "flan_gemma": 1.03,
+        "flan_gpt4o": 1.0
+      }
+    },
+    "replication_status": {
+      "k4_intersection": "REPLICATED (z = +15.41 vs MedQA +9.61, stronger effect)",
+      "bimodal_k_structure": "REPLICATED (same direction at every k)",
+      "unanimous_convergence": "REPLICATED (6.4x vs MedQA 9.1x; both far above chance)",
+      "pairwise_lifts": "REPLICATED (within 0.05 of MedQA range)",
+      "flan_independence": "REPLICATED (1.00-1.03x vs MedQA 1.02-1.07x)",
+      "expertise_reversal_null": "REPLICATED (Flan no better in shared-fail subset, both datasets)"
+    },
+    "paper_central_claim_now": "Capable LLMs from 5 different organizations (Meta, Alibaba, Google, DeepSeek/OpenAI) converge on identical wrong distractors in clinical multiple-choice questions at 6-9x chance rate, replicating across MedQA-USMLE (1,273 questions) and MedMCQA (2,816 questions)."
+  },
+  "bias_triangulation": {
+    "timestamp": "2026-05-22T17:04:46.656293",
+    "session": "MedMCQA bias analysis + cross-classifier triangulation",
+    "four_corner_distribution": {
+      "medqa_llama70b": {
+        "PC": 0.604,
+        "ANCHOR": 0.375,
+        "n": 48
+      },
+      "medqa_gpt4omini": {
+        "PC": 0.854,
+        "ANCHOR": 0.146,
+        "n": 48
+      },
+      "medmcqa_llama70b": {
+        "PC": 0.775,
+        "ANCHOR": 0.15,
+        "n": 227
+      },
+      "medmcqa_gpt4omini": {
+        "PC": 0.722,
+        "ANCHOR": 0.211,
+        "n": 227
+      }
+    },
+    "cross_classifier_agreement": {
+      "medqa_kappa": 0.126,
+      "medmcqa_kappa": 0.215,
+      "medmcqa_raw_agreement": 0.683,
+      "interpretation": "Both weak; classifiers cannot reliably distinguish PC from anchoring"
+    },
+    "robust_findings": [
+      "PC dominance: 72-85% across all 4 corners (dataset x classifier)",
+      "Unanimous-wrong convergence: 33.6% MedQA, 36.4% MedMCQA",
+      "Pairwise lifts replicate: 1.33-1.74x strong-strong, ~1.0x Flan-strong",
+      "No expertise reversal: Flan does NOT beat baseline on shared-fail subset (both datasets)"
+    ],
+    "retracted_or_weakened": [
+      "Anchoring elevation in MedQA unanimous-wrong (Llama-70B artifact, retracted)",
+      "Dataset-specific anchoring difference (classifier-dependent, weakened)"
+    ],
+    "methodological_finding": "LLM-as-judge produces stable MARGINAL distributions on PC dominance but UNRELIABLE per-instance discrimination between PC and anchoring categories.",
+    "paper_central_claim": "Capable LLMs from different families converge on identical wrong distractors in clinical multiple-choice questions at ~9x chance rate, replicating across MedQA-USMLE and MedMCQA. Premature closure is the dominant failure characterization.",
+    "next_steps": [
+      "DeepSeek-V3 MedMCQA evaluation when Together recovers (~$1.33)",
+      "Qualitative typology of MedMCQA unanimous-wrong (5-10 examples)",
+      "Paper outline + Section 1 draft",
+      "Figures: pairwise lift heatmap, unanimous-wrong rates, PC dominance across 4 corners"
+    ]
+  },
+  "detector_medqa": {
+    "tool": "mid_tier_consensus_vs_frontier_disagreement",
+    "rule": "Flag HIGH_RISK when all mid-tier LLMs agree on answer X but frontier-tier model picks different answer",
+    "rationale": "Mid-tier agreement alone is high-confidence-correct (77.5% right). The shared-failure subset is specifically where frontier-tier knowledge corrects the mid-tier consensus error.",
+    "tier_results": {
+      "HIGH_RISK": {
+        "n": 102,
+        "mid_wrong_rate": 0.9607843137254902
+      },
+      "CONFIDENT": {
+        "n": 419,
+        "mid_wrong_rate": 0.045346062052505964
+      },
+      "PARTIAL_AGREEMENT": {
+        "n": 0,
+        "mid_wrong_rate": 0.0
+      },
+      "DISAGREEMENT": {
+        "n": 752,
+        "mid_wrong_rate": 0.5452127659574468
+      },
+      "AMBIGUOUS": {
+        "n": 0,
+        "mid_wrong_rate": 0.0
+      }
+    },
+    "high_risk_precision": 0.9607843137254902,
+    "high_risk_recall": 0.1859582542694497
+  },
+  "detector_medmcqa": {
+    "tool": "mid_tier_consensus_vs_frontier_disagreement",
+    "dataset": "MedMCQA validation single-choice (n=2816)",
+    "tier_results": {
+      "HIGH_RISK": {
+        "n": 188,
+        "wrong_rate": 0.8297872340425532
+      },
+      "CONFIDENT": {
+        "n": 861,
+        "wrong_rate": 0.08246225319396051
+      },
+      "PARTIAL_AGREEMENT": {
+        "n": 0,
+        "wrong_rate": 0.0
+      },
+      "DISAGREEMENT": {
+        "n": 1767,
+        "wrong_rate": 0.5500848896434635
+      },
+      "AMBIGUOUS": {
+        "n": 0,
+        "wrong_rate": 0.0
+      }
+    },
+    "high_risk_precision": 0.8297872340425532,
+    "high_risk_recall": 0.13010842368640535,
+    "medqa_comparison": {
+      "precision": 0.961,
+      "recall": 0.186,
+      "confident_wrong_rate": 0.045
+    }
+  },
+  "frontier_substitution": {
+    "experiment": "frontier_model_substitution_medqa",
+    "medqa_gpt4o_accuracy": 0.8853102906520032,
+    "all_4_strong_wrong_gpt4o_subset_size": 73,
+    "unanimous_rate_gpt4o": 0.2602739726027397,
+    "all_5_strong_wrong_subset_size": 57,
+    "unanimous_rate_5_strong": 0.24561403508771928
+  }
+}

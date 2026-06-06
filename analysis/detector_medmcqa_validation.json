@@ -1,0 +1,33 @@
+{
+  "tool": "mid_tier_consensus_vs_frontier_disagreement",
+  "dataset": "MedMCQA validation single-choice (n=2816)",
+  "tier_results": {
+    "HIGH_RISK": {
+      "n": 188,
+      "wrong_rate": 0.8297872340425532
+    },
+    "CONFIDENT": {
+      "n": 861,
+      "wrong_rate": 0.08246225319396051
+    },
+    "PARTIAL_AGREEMENT": {
+      "n": 0,
+      "wrong_rate": 0.0
+    },
+    "DISAGREEMENT": {
+      "n": 1767,
+      "wrong_rate": 0.5500848896434635
+    },
+    "AMBIGUOUS": {
+      "n": 0,
+      "wrong_rate": 0.0
+    }
+  },
+  "high_risk_precision": 0.8297872340425532,
+  "high_risk_recall": 0.13010842368640535,
+  "medqa_comparison": {
+    "precision": 0.961,
+    "recall": 0.186,
+    "confident_wrong_rate": 0.045
+  }
+}

@@ -1,0 +1,208 @@
+{
+ "experiment": "classical_diversity_measures",
+ "medqa_pairs": [
+  {
+   "pair": "flan/llama",
+   "Q": 0.08691785868543409,
+   "DF": 0.36135113904163396,
+   "kind": "flan-strong",
+   "err_a": 0.7352710133542812,
+   "err_b": 0.4799685781618225
+  },
+  {
+   "pair": "flan/qwen",
+   "Q": 0.239937472977018,
+   "DF": 0.3197172034564022,
+   "kind": "flan-strong",
+   "err_a": 0.7352710133542812,
+   "err_b": 0.40455616653574233
+  },
+  {
+   "pair": "flan/gemma",
+   "Q": 0.21412640352777743,
+   "DF": 0.35978004713275724,
+   "kind": "flan-strong",
+   "err_a": 0.7352710133542812,
+   "err_b": 0.4611154752553024
+  },
+  {
+   "pair": "flan/deepseek",
+   "Q": 0.09757125595946162,
+   "DF": 0.17046347211311863,
+   "kind": "flan-strong",
+   "err_a": 0.7352710133542812,
+   "err_b": 0.223095051060487
+  },
+  {
+   "pair": "flan/gpt4o",
+   "Q": -0.04590873509232399,
+   "DF": 0.08248232521602514,
+   "kind": "flan-strong",
+   "err_a": 0.7352710133542812,
+   "err_b": 0.11468970934799683
+  },
+  {
+   "pair": "llama/qwen",
+   "Q": 0.5984044026667159,
+   "DF": 0.2741555380989788,
+   "kind": "strong-strong",
+   "err_a": 0.4799685781618225,
+   "err_b": 0.40455616653574233
+  },
+  {
+   "pair": "llama/gemma",
+   "Q": 0.6172656506572699,
+   "DF": 0.3071484681853888,
+   "kind": "strong-strong",
+   "err_a": 0.4799685781618225,
+   "err_b": 0.4611154752553024
+  },
+  {
+   "pair": "llama/deepseek",
+   "Q": 0.5840520362884644,
+   "DF": 0.16182246661429694,
+   "kind": "strong-strong",
+   "err_a": 0.4799685781618225,
+   "err_b": 0.223095051060487
+  },
+  {
+   "pair": "llama/gpt4o",
+   "Q": 0.6113262010034134,
+   "DF": 0.08798114689709348,
+   "kind": "strong-strong",
+   "err_a": 0.4799685781618225,
+   "err_b": 0.11468970934799683
+  },
+  {
+   "pair": "qwen/gemma",
+   "Q": 0.7713732280691457,
+   "DF": 0.30007855459544386,
+   "kind": "strong-strong",
+   "err_a": 0.40455616653574233,
+   "err_b": 0.4611154752553024
+  },
+  {
+   "pair": "qwen/deepseek",
+   "Q": 0.6718343048493117,
+   "DF": 0.15710919088766692,
+   "kind": "strong-strong",
+   "err_a": 0.40455616653574233,
+   "err_b": 0.223095051060487
+  },
+  {
+   "pair": "qwen/gpt4o",
+   "Q": 0.7004015128240442,
+   "DF": 0.08719560094265515,
+   "kind": "strong-strong",
+   "err_a": 0.40455616653574233,
+   "err_b": 0.11468970934799683
+  },
+  {
+   "pair": "gemma/deepseek",
+   "Q": 0.7008485545807565,
+   "DF": 0.1720345640219953,
+   "kind": "strong-strong",
+   "err_a": 0.4611154752553024,
+   "err_b": 0.223095051060487
+  },
+  {
+   "pair": "gemma/gpt4o",
+   "Q": 0.637786798842712,
+   "DF": 0.08798114689709348,
+   "kind": "strong-strong",
+   "err_a": 0.4611154752553024,
+   "err_b": 0.11468970934799683
+  },
+  {
+   "pair": "deepseek/gpt4o",
+   "Q": 0.7848694858281113,
+   "DF": 0.07227022780832679,
+   "kind": "strong-strong",
+   "err_a": 0.223095051060487,
+   "err_b": 0.11468970934799683
+  }
+ ],
+ "medmcqa_pairs": [
+  {
+   "pair": "flan/llama",
+   "Q": 0.093219,
+   "DF": 0.503196,
+   "kind": "flan-strong",
+   "err_a": 0.732244,
+   "err_b": 0.45419
+  },
+  {
+   "pair": "flan/qwen",
+   "Q": 0.041081,
+   "DF": 0.520952,
+   "kind": "flan-strong",
+   "err_a": 0.732244,
+   "err_b": 0.437855
+  },
+  {
+   "pair": "flan/gemma",
+   "Q": 0.100781,
+   "DF": 0.476562,
+   "kind": "flan-strong",
+   "err_a": 0.732244,
+   "err_b": 0.507812
+  },
+  {
+   "pair": "flan/gpt4o",
+   "Q": -0.000519,
+   "DF": 0.62642,
+   "kind": "flan-strong",
+   "err_a": 0.732244,
+   "err_b": 0.227983
+  },
+  {
+   "pair": "llama/qwen",
+   "Q": 0.586597,
+   "DF": 0.335227,
+   "kind": "strong-strong",
+   "err_a": 0.45419,
+   "err_b": 0.437855
+  },
+  {
+   "pair": "llama/gemma",
+   "Q": 0.55816,
+   "DF": 0.349787,
+   "kind": "strong-strong",
+   "err_a": 0.45419,
+   "err_b": 0.507812
+  },
+  {
+   "pair": "llama/gpt4o",
+   "Q": 0.583558,
+   "DF": 0.362571,
+   "kind": "strong-strong",
+   "err_a": 0.45419,
+   "err_b": 0.227983
+  },
+  {
+   "pair": "qwen/gemma",
+   "Q": 0.730127,
+   "DF": 0.288707,
+   "kind": "strong-strong",
+   "err_a": 0.437855,
+   "err_b": 0.507812
+  },
+  {
+   "pair": "qwen/gpt4o",
+   "Q": 0.704476,
+   "DF": 0.322798,
+   "kind": "strong-strong",
+   "err_a": 0.437855,
+   "err_b": 0.227983
+  },
+  {
+   "pair": "gemma/gpt4o",
+   "Q": 0.637042,
+   "DF": 0.383523,
+   "kind": "strong-strong",
+   "err_a": 0.507812,
+   "err_b": 0.227983
+  }
+ ],
+ "notes": "Q-statistic (Kuncheva-Whitaker 2003); double-fault from same literature. MedMCQA pairs recomputed June 2026 directly from the released 2,816-question predictions; an earlier copy had been computed on a superseded MedMCQA prediction set with higher marginal error rates (e.g. Flan 81.5% vs released 73.2% wrong) and is corrected here. MedMCQA strong-strong mean Q=0.633 (0.558-0.730); flan-strong mean Q=0.059 (-0.001-0.101)."
+}

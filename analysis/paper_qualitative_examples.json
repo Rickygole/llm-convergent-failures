@@ -1,0 +1,42 @@
+{
+  "medmcqa_qualitative_picks": [
+    {
+      "example_num": 1,
+      "subject": "Surgery",
+      "theme": "Obvious treatment, missed contraindication",
+      "note": "Facial abscess + orbital signs \u2192 aspiration first, not I&D"
+    },
+    {
+      "example_num": 2,
+      "subject": "Medicine",
+      "theme": "Lipid pattern triggers combo therapy reflex",
+      "note": "Post-MI guidelines = high-intensity statin alone, not statin+fibrate"
+    },
+    {
+      "example_num": 3,
+      "subject": "Pathology",
+      "theme": "Generic next-step over syndrome-specific",
+      "note": "CML signature on DLC \u2192 Philadelphia chromosome, not generic BM biopsy"
+    },
+    {
+      "example_num": 5,
+      "subject": "Obstetrics",
+      "theme": "Prototype condition crowds out specific dx",
+      "note": "Placenta accreta is famous; placenta succenturiata is the actual answer"
+    },
+    {
+      "example_num": 9,
+      "subject": "Pediatrics",
+      "theme": "Lay-intuitive answer over technical concept",
+      "note": "Delta bilirubin explains persistent elevation; \"normal lowering takes time\" is the trap"
+    }
+  ],
+  "parallel_to_medqa": [
+    "idx=0 carpal tunnel ethics",
+    "idx=6 DM+PAD flank pain (RAS trap)",
+    "idx=23 post-stroke pneumonia (Strep vs Staph)",
+    "idx=59 eating disorder dental",
+    "idx=93 Down syndrome vs RA cervical instability"
+  ],
+  "shared_pattern": "Across both datasets, 4 LLM families converge on the textbook-prototype answer rather than the evidence-warranted answer. This is the qualitative signature of the convergent failure mode."
+}

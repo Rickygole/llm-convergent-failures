@@ -1,0 +1,53 @@
+{
+ "timestamp": "2026-05-22T17:04:46.656293",
+ "session": "MedMCQA bias analysis + cross-classifier triangulation",
+ "four_corner_distribution": {
+  "medqa_llama70b": {
+   "PC": 0.604,
+   "ANCHOR": 0.375,
+   "n": 48
+  },
+  "medqa_gpt4omini": {
+   "PC": 0.854,
+   "ANCHOR": 0.146,
+   "n": 48
+  },
+  "medmcqa_llama70b": {
+   "PC": 0.775,
+   "ANCHOR": 0.15,
+   "n": 227
+  },
+  "medmcqa_gpt4omini": {
+   "PC": 0.722,
+   "ANCHOR": 0.211,
+   "n": 227
+  }
+ },
+ "cross_classifier_agreement": {
+  "medqa_kappa": 0.126,
+  "medmcqa_kappa": 0.215,
+  "medmcqa_raw_agreement": 0.683,
+  "interpretation": "Both weak; classifiers cannot reliably distinguish PC from anchoring"
+ },
+ "robust_findings": [
+  "PC dominance: 72-85% across all 4 corners (dataset x classifier)",
+  "Unanimous-wrong convergence: 33.6% MedQA, 36.4% MedMCQA",
+  "Pairwise lifts replicate: 1.33-1.74x strong-strong, ~1.0x Flan-strong",
+  "No expertise reversal: Flan does NOT beat baseline on shared-fail subset (both datasets)"
+ ],
+ "retracted_or_weakened": [
+  "Anchoring elevation in MedQA unanimous-wrong (Llama-70B artifact, retracted)",
+  "Dataset-specific anchoring difference (classifier-dependent, weakened)"
+ ],
+ "methodological_finding": "LLM-as-judge produces stable MARGINAL distributions on PC dominance but UNRELIABLE per-instance discrimination between PC and anchoring categories.",
+ "paper_central_claim": "Capable LLMs from different families converge on identical wrong distractors in clinical multiple-choice questions at ~9x chance rate, replicating across MedQA-USMLE and MedMCQA. Premature closure is the dominant failure characterization.",
+ "next_steps": [
+  "DeepSeek-V3 MedMCQA evaluation when Together recovers (~$1.33)",
+  "Qualitative typology of MedMCQA unanimous-wrong (5-10 examples)",
+  "Paper outline + Section 1 draft",
+  "Figures: pairwise lift heatmap, unanimous-wrong rates, PC dominance across 4 corners"
+ ],
+ "medqa_kappa": 0.126,
+ "medmcqa_kappa": 0.215,
+ "_note_kappa_update": "Kappa values recomputed from released bias label files on 2026-06-02. Older value of 0.181 for MedQA reflected an earlier classifier run that was superseded."
+}

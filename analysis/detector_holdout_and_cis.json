@@ -1,0 +1,119 @@
+{
+  "experiment": "detector_holdout_validation_and_CIs",
+  "cross_dataset_transfer": {
+    "rule": "HIGH_RISK = Llama, Qwen, Gemma unanimous AND frontier disagrees",
+    "medqa_deepseek_frontier": {
+      "high_risk_n": 89,
+      "high_risk_wrong": 69,
+      "high_risk_precision": 0.7752808988764045,
+      "high_risk_precision_ci": [
+        0.6782244712364707,
+        0.8495561788169537
+      ],
+      "high_risk_recall": 0.5897435897435898,
+      "high_risk_recall_ci": [
+        0.4991426908732677,
+        0.67463852354296
+      ],
+      "high_risk_route": 0.06991358994501179,
+      "confident_n": 431,
+      "confident_wrong": 48,
+      "confident_wrong_rate": 0.11136890951276102,
+      "confident_wrong_ci": [
+        0.08503483006957602,
+        0.14456969718816562
+      ]
+    },
+    "medmcqa_gpt4o_frontier": {
+      "high_risk_n": 134,
+      "high_risk_wrong": 111,
+      "high_risk_precision": 0.8283582089552238,
+      "high_risk_precision_ci": [
+        0.7555966004830645,
+        0.8828173471205616
+      ],
+      "high_risk_recall": 0.7115384615384616,
+      "high_risk_recall_ci": [
+        0.6360355042777336,
+        0.7768732754141613
+      ],
+      "high_risk_route": 0.04758522727272727,
+      "confident_n": 570,
+      "confident_wrong": 45,
+      "confident_wrong_rate": 0.07894736842105263,
+      "confident_wrong_ci": [
+        0.05952345654435276,
+        0.10400877952915602
+      ]
+    },
+    "medqa_gpt4o_frontier_robustness": {
+      "high_risk_n": 102,
+      "high_risk_wrong": 98,
+      "high_risk_precision": 0.9607843137254902,
+      "high_risk_precision_ci": [
+        0.9034734282412418,
+        0.9846461769045611
+      ],
+      "high_risk_recall": 0.8376068376068376,
+      "high_risk_recall_ci": [
+        0.7602456035382986,
+        0.8935027745037002
+      ],
+      "high_risk_route": 0.08012568735271014,
+      "confident_n": 418,
+      "confident_wrong": 19,
+      "confident_wrong_rate": 0.045454545454545456,
+      "confident_wrong_ci": [
+        0.029289739514685532,
+        0.06989820212027886
+      ]
+    }
+  },
+  "headline_wilson_cis": {
+    "5_model_medqa_unanimous_wrong": {
+      "k": 14,
+      "n": 57,
+      "rate": 0.24561403508771928,
+      "ci": [
+        0.1523270046544784,
+        0.3710254384107928
+      ]
+    },
+    "4_model_medqa_unanimous_wrong": {
+      "k": 48,
+      "n": 143,
+      "rate": 0.3356643356643357,
+      "ci": [
+        0.2634630119889868,
+        0.4164642020974846
+      ]
+    },
+    "4_model_medmcqa_unanimous_wrong": {
+      "k": 71,
+      "n": 301,
+      "rate": 0.23588039867109634,
+      "ci": [
+        0.19143366900037873,
+        0.2869839747857712
+      ]
+    },
+    "shuffle_joint_text_lock": {
+      "k": 29,
+      "n": 48,
+      "rate": 0.6041666666666666,
+      "ci": [
+        0.4631015459693511,
+        0.7297937350404942
+      ]
+    },
+    "shuffle_joint_letter_lock": {
+      "k": 5,
+      "n": 48,
+      "rate": 0.10416666666666667,
+      "ci": [
+        0.045321050901178245,
+        0.2216768812614093
+      ]
+    }
+  }
+}

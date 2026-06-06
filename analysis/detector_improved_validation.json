@@ -1,0 +1,29 @@
+{
+  "tool": "mid_tier_consensus_vs_frontier_disagreement",
+  "rule": "Flag HIGH_RISK when all mid-tier LLMs agree on answer X but frontier-tier model picks different answer",
+  "rationale": "Mid-tier agreement alone is high-confidence-correct (77.5% right). The shared-failure subset is specifically where frontier-tier knowledge corrects the mid-tier consensus error.",
+  "tier_results": {
+    "HIGH_RISK": {
+      "n": 102,
+      "mid_wrong_rate": 0.9607843137254902
+    },
+    "CONFIDENT": {
+      "n": 419,
+      "mid_wrong_rate": 0.045346062052505964
+    },
+    "PARTIAL_AGREEMENT": {
+      "n": 0,
+      "mid_wrong_rate": 0.0
+    },
+    "DISAGREEMENT": {
+      "n": 752,
+      "mid_wrong_rate": 0.5452127659574468
+    },
+    "AMBIGUOUS": {
+      "n": 0,
+      "mid_wrong_rate": 0.0
+    }
+  },
+  "high_risk_precision": 0.9607843137254902,
+  "high_risk_recall": 0.1859582542694497
+}

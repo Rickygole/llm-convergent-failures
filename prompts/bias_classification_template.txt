@@ -1,0 +1,34 @@
+# Bias classification prompt (LLM-as-judge)
+#
+# Used to produce the cognitive bias labels in bias_labels/*_bias_labels_*.json
+# and bias_labels/*_shared_failure_bias_*.json. Two classifiers ran this
+# prompt independently: Llama-3.3-70B-Instruct-Turbo and GPT-4o-mini. Cohen's
+# kappa on the per-question labels appears in Table V of the paper.
+#
+# Inference parameters: max_tokens=10, temperature=0.0. Output is parsed by
+# scanning for one of the five labels {AVAILABILITY_BIAS, ANCHORING_BIAS,
+# FRAMING_EFFECT, PREMATURE_CLOSURE, OTHER} in the uppercased response.
+#
+# Placeholders are filled with the question stem, full option block (one line
+# per option, formatted as "A: text"), the gold letter and its option text,
+# and the wrong letter chosen unanimously by the strong model ensemble and
+# its option text.
+
+You are an expert medical educator. Classify the cognitive bias that caused this AI model error.
+
+Question: {question}
+
+Options:
+{options_block}
+
+Correct answer: {gold_letter} - {gold_text}
+Wrong answer chosen: {wrong_letter} - {wrong_text}
+
+Reply with ONLY one of these labels:
+- AVAILABILITY_BIAS (over-weighting salient/memorable symptoms)
+- ANCHORING_BIAS (over-relying on first piece of information)
+- FRAMING_EFFECT (different conclusion from same info presented differently)
+- PREMATURE_CLOSURE (stopping reasoning too early)
+- OTHER
+
+Single label only, no explanation:

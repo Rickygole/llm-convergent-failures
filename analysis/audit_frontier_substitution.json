@@ -1,0 +1,8 @@
+{
+  "experiment": "frontier_model_substitution_medqa",
+  "medqa_gpt4o_accuracy": 0.8853102906520032,
+  "all_4_strong_wrong_gpt4o_subset_size": 73,
+  "unanimous_rate_gpt4o": 0.2602739726027397,
+  "all_5_strong_wrong_subset_size": 57,
+  "unanimous_rate_5_strong": 0.24561403508771928
+}
