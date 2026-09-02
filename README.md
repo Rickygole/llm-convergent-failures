@@ -61,7 +61,7 @@ The 17 checks are:
 - the 5-LLM MedQA unanimous-wrong rate, 14 of 57 (24.6%)
 - the MedQA HIGH_RISK detector, n = 102 at 96.1% precision
 - the 5-wrong-baseline Fisher exact p-values (0.14 on MedQA, 0.22 on MedMCQA)
-- the programmatic premature-closure proxy (Welch t = -2.18, p = 0.030)
+- the programmatic premature-closure proxy (Welch t = -2.18, p = 0.030) — released and checked here, but cut from the final paper
 - cross-classifier Cohen's kappa on the bias labels (0.126 MedQA, 0.215 MedMCQA)
 - the frontier-only baseline: GPT-4o alone reaches 88.5%, and detector routing beats the mid-tier ensemble by 7.7 points
 - the MedMCQA strong-to-strong mean Yule Q, 0.633
@@ -76,18 +76,20 @@ Everything else maps to one file you can open directly.
 | 4-LLM MedQA, DeepSeek frontier: 48/143 = 33.6% [26.3, 41.6] | `analysis/audit_empirical_chance.json` |
 | 4-LLM MedMCQA, GPT-4o frontier: 71/301 = 23.6% [19.1, 28.7] | `analysis/audit_empirical_chance.json` |
 | 3-LLM MedQA mid-tier: 117/279 = 41.9% | `analysis/paper_numbers.json` |
+| Unconditional silent-failure rates: 9.2% / 3.8% / 1.1% (MedQA), 2.5% (MedMCQA) | `predictions/` via `verify_paper_numbers.py` |
 | Detector MedQA HIGH_RISK: n=102 at 96.1% | `analysis/detector_improved_validation.json` |
 | Detector MedMCQA looser rule: n=188 at 83.0% | `analysis/detector_medmcqa_validation.json` |
 | Detector MedMCQA strict rule (V-F): n=134 at 82.8% | `analysis/exp1_holdout_cis.json` |
+| Leave-one-out over mid-tier membership (Section VI-G) | `predictions/` via `verify_paper_numbers.py` |
 | Shuffle: text-lock 60.4%, letter-lock 10.4% (n=48) | `analysis/audit_shuffle_summary.json` |
 | k-intersection z-scores (Figure 2) | `analysis/figure2_kintersection_data.json` |
 | Vote-share 0.75 gap (Section V-F) | `analysis/exp9_confidence_proxy.json` |
 | Pairwise lifts (Table II) | `analysis/audit_pairwise_lift_permutation.json` |
-| Yule Q by pair (Section VI-F) | `analysis/exp3_diversity_measures.json` |
+| Yule Q by pair (Section V-C) | `analysis/exp3_diversity_measures.json` |
 | Test-retest Jaccard 0.745 / 0.864 | `analysis/audit_test_retest.json` |
 | Bias four-corner table (Table V) | `analysis/triangulation_summary.json`, `bias_labels/` |
 | 5-wrong baseline Fisher exact (Section VI-D) | `analysis/audit_5wrong_baseline.json` |
-| Programmatic PC (Section VI-G) | `analysis/audit_programmatic_pc.json`, `bias_labels/programmatic_pc_scores.json` |
+| Programmatic premature-closure proxy (released; not reported in the final paper) | `analysis/audit_programmatic_pc.json`, `bias_labels/programmatic_pc_scores.json` |
 | Entropy baseline (Section V-F) | `analysis/exp2_entropy_baseline.json`, `analysis/entropy_baseline_full_sweep.json` |
 | Frontier substitution (Section VI-C) | `analysis/audit_frontier_substitution.json` |
 | Non-dental MedMCQA (Section VI-B) | `analysis/audit_non_dental.json` |
