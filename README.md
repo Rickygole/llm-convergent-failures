@@ -1,6 +1,6 @@
 # Convergent failures in clinical LLM ensembles: reproducibility release
 
-Data and code for the paper "When LLM Ensembles Agree They Are Wrong: Convergent Failures in Clinical Question Answering" (anonymous; under double-blind review, ICDM 2026, Applied Data Science track).
+Data and code for the paper "Detecting and Mitigating Convergent Failures in Clinical LLM Ensembles" by Ricky Gole and Jamell Dacon (Morgan State University), accepted at IEEE ICDM 2026, Applied Data Science track.
 
 The release holds the per-model predictions, the analysis outputs they feed into, the bias labels, the source data behind the figures, and the notebooks we ran to produce all of it.
 
@@ -12,6 +12,12 @@ python verify_reproducibility.py
 ```
 
 `verify_reproducibility.py` recomputes the main numbers in the paper directly from the JSON files here and prints PASS or FAIL for each one. It should report `17/17 checks passed` and finishes in well under a minute. No GPU or API key is needed.
+
+```bash
+python verify_paper_numbers.py
+```
+
+`verify_paper_numbers.py` is a second, stricter check: it recomputes every headline number in the paper from `predictions/` alone, without trusting any intermediate analysis file. It covers Table I (conditional and unconditional rates), Table IV (both datasets, both tiers, both recall denominators, Wilson intervals), the leave-one-out membership check, deployed-system accuracy, the vote-share partition, and the shuffle cohort definition. It should report `33/33 checks PASS`.
 
 ## Layout
 
@@ -121,15 +127,16 @@ Code (`*.py`) is MIT. Data (predictions, analysis output, bias labels) is CC BY 
 ## Citation
 
 ```bibtex
-@inproceedings{anon2026ensembles,
-  title  = {When LLM Ensembles Agree They Are Wrong: Convergent Failures in Clinical Question Answering},
-  author = {Anonymous},
+@inproceedings{gole2026convergent,
+  title     = {Detecting and Mitigating Convergent Failures in Clinical {LLM} Ensembles},
+  author    = {Gole, Ricky and Dacon, Jamell},
   booktitle = {Proceedings of the IEEE International Conference on Data Mining (ICDM)},
-  year   = {2026},
-  note   = {Applied Data Science track, under double-blind review}
+  year      = {2026},
+  note      = {Applied Data Science track}
 }
 ```
 
 ## Contact
 
-During review, please reach the authors through the anonymous submission system.
+Ricky Gole and Jamell Dacon, Department of Computer Science, Morgan State University, Baltimore, MD, USA.
+Email: {ricky.gole, jamell.dacon}@morgan.edu
