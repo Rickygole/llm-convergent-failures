@@ -61,7 +61,7 @@ The 17 checks are:
 - the 5-LLM MedQA unanimous-wrong rate, 14 of 57 (24.6%)
 - the MedQA HIGH_RISK detector, n = 102 at 96.1% precision
 - the 5-wrong-baseline Fisher exact p-values (0.14 on MedQA, 0.22 on MedMCQA)
-- the programmatic premature-closure proxy (Welch t = -2.18, p = 0.030) — released and checked here, but cut from the final paper
+- the programmatic premature-closure proxy (Welch t = -2.18, p = 0.030), released and checked here but cut from the final paper
 - cross-classifier Cohen's kappa on the bias labels (0.126 MedQA, 0.215 MedMCQA)
 - the frontier-only baseline: GPT-4o alone reaches 88.5%, and detector routing beats the mid-tier ensemble by 7.7 points
 - the MedMCQA strong-to-strong mean Yule Q, 0.633
