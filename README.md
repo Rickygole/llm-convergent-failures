@@ -113,7 +113,7 @@ Each prediction file is a JSON list. A record looks like:
 {"idx": 0, "gold": "B", "pred": "A", "correct": 0}
 ```
 
-Flan-T5-base files also carry `question` (the stem) and `raw_output` (the raw generation). MedMCQA files carry a UUID `id`.
+MedMCQA files carry a UUID `id`. The Flan-T5-base MedMCQA file also carries `raw_output` (the raw generation). No MedQA question or option text is distributed; records are keyed by question index only.
 
 ## Notes on the data
 

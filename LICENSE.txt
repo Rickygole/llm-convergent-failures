@@ -27,7 +27,9 @@ released under Creative Commons Attribution 4.0 International (CC BY 4.0).
 See https://creativecommons.org/licenses/by/4.0/ for the full text.
 
 The underlying datasets (MedQA-USMLE, MedMCQA) remain under their original
-licenses; please consult the dataset repositories for terms.
+licenses; please consult the dataset repositories for terms. CC BY 4.0 does
+not extend to any MedQA or MedMCQA content, which remains under its original
+terms.
 
 Model outputs are subject to the terms of service of the respective model
 providers (Together.ai, OpenAI).
